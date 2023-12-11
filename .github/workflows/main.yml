@@ -19,7 +19,7 @@ jobs:
         python-version: "3.11"
 
     - name: Install dependencies
-      run: pip install fastapi pytest httpx uvicorn fasttext-wheel
+      run: pip install fastapi pytest httpx uvicorn fasttext-wheel huggingface_hub
 
     - name: Run tests
       run: |
